@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.scroll{
+    
+    position: relative;
+        margin-top: 80px;
+        margin-bottom: 18px;
+        padding: 20px;
+        border-radius: 8px;
+        background: white;
+        height: 85vh;
+        box-shadow: 0 8px 16px black;
+}
+.container{
+    position: relative;
+        width: 100%;
+        overflow-y: scroll;
+        background: white;
+        max-height: 75%;
+        margin-bottom: 20px;
+    
+}
+td {
+    background-color: #f9f9f9;
+    font-size: 0.95rem;
+    font-weight: 600;
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto; 
+}
+
+.scroll header{
+    font-size: 3rem;
+    color: #333;
+    font-weight: 5000;
+    text-align: center; 
+    padding-bottom: 5px;
+}
+
+.container .form{
+    margin-top: 20px;
+
+}
+
+.drop{
+    width: 100%;
+    font-size: 3rem;
+    margin-top: 20px;
+    
+
+}
+.drop label{
+    color: #333;
+    font-size: 1rem;
+}
+
+
+.column{
+    display: flex;
+    column-gap: 70px;
+    padding-right: 25px;
+}
+
+.column .drop select{
+    border: 1px solid black; 
+    width: 75%; 
+    padding:5px; 
+    border-radius:6px;
+}
+
+button {
+    height: 30px;
+    background-color: rgb(0, 255, 242);
+    font-size: 1.2rem;
+    margin-top: 65%;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+    background-color: rgb(1, 122, 116);
+    transform: translateY(-2px);
+}
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.action-buttons .btn {
+    width: 70px;
+    margin: 5px; 
+}
+

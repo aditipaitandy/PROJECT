@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.scroll{
+    
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 18px;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    max-height: 85vh;
+    
+    box-shadow: 0 8px 16px black;
+}
+.container{
+    position: relative;
+    width: 100%;
+    overflow-y: scroll;
+    background: white;
+    max-height: 70vh;
+    margin-bottom: 20px;
+    
+    
+}
+
+.scroll header{
+    font-size: 3rem;
+    color: #333;
+    font-weight: 5000;
+    text-align: center; 
+    padding-bottom: 5px;
+}
+
+.container .form{
+    margin-top: 30px;
+
+}
+
+.form :where(.drop, .inputbox){
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.form :where(.inputbox label, .drop label){
+    color: #333;
+    font-size: 1rem;
+}
+
+.form .inputbox input{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    border: 1px solid #484444;
+    border-radius: 6px;
+    padding: 0 15px;
+    box-shadow: 0 1px 3px black;
+
+}
+.form .column{
+    display: flex;
+    column-gap: 100px;
+}
+
+.column .drop select{
+    border: 1px solid black; 
+    width: 75%; 
+    padding:5px; 
+    border-radius:6px;
+}
+
+.form button{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 255, 242);
+    font-size:2rem;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: rgb(1, 122, 116);
+}
+
+.wh{
+    color: rgb(255, 255, 255);
+}
+
+.rd{
+    color: red;
+    font-weight: 600;
+}

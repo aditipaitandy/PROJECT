@@ -1,0 +1,120 @@
+/* Base Styles */
+
+.out{
+    
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 18px;
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    height: 85vh;
+    box-shadow: 0 8px 16px black;
+}
+
+.out header{
+    font-size: 3rem;
+    color: #333;
+    font-weight: 5000;
+    text-align: center; 
+    padding-bottom: 5px;
+}
+
+.container {
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background: white;
+    height: 90%;
+    margin-bottom: 20px;
+    
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+
+td {
+    background-color: #f9f9f9;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+/* Button Styles */
+.btn {
+    width: 75%;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn.delete {
+    background-color: #DC3545;
+}
+
+.btn.delete:hover {
+    background-color: #b02a37;
+}
+
+/* Action Buttons Container */
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.action-buttons a{
+    box-shadow: 0 3px 6px black;
+    border: black 0.005rem solid;
+    margin: 5px;
+   
+}
+
+.action-buttons .btn {
+    display : inline-block;
+    margin-right: 10px;
+}
+
+/* Background */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

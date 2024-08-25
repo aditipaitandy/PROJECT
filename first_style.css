@@ -1,0 +1,60 @@
+.header {
+    background-color: lightpink;
+
+
+
+    display: grid;
+        width: 100%;
+        gap: 1rem;
+        grid-template-columns: 15rem auto;
+        margin: 0 auto;
+
+}
+
+.header h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: -15rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    animation: neon 20.5s infinite alternate;
+}
+
+.header img {
+    height: 200px;
+
+}
+
+.nav {
+    background-color: rgb(209, 253, 255);
+    overflow: hidden;
+}
+
+.nav a {
+    float: left;
+    background-color: rgb(209, 253, 255);
+    color: rgb(163, 0, 0);
+    font-weight: 650;
+    font-size: 1.35rem;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.nav a.select {
+    background-color: blanchedalmond;
+
+}
+
+.nav_select:hover {
+    background-color: blue;
+
+}
+
+a img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}

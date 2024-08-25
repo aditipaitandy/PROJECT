@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+    
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.foot{
+    display: flex;
+    
+}
+
+.foot .btn{
+    width: 40%;
+    padding: 4px 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 27%;
+
+
+}
+
+.header h4 {
+    margin: 0 0 20px;
+    color: #2c3e50;
+    font-size: 26px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.user-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user-info img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #3498db;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-info p {
+    font-size: 16px;
+    justify-content: left;
+    text-align: left;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.user-info p:hover {
+    transform: scale(1.05);
+    background-color: #dfe6e9;
+}
+
+.user-info p strong {
+    color: #2980b9;
+    padding-left: 15px;
+    display: inline-block;
+    min-width: 180px;
+    text-align: left;
+    margin-right: 10px;
+}
